@@ -1,4 +1,4 @@
-# Aplicacion-Barberia-Backend-DWI
+# Aplicacion-Fadex-Barberia-Backend
 
 Backend de la aplicación web para la gestión integral de una barbería.
 
