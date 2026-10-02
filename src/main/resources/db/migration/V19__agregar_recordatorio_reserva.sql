@@ -1,0 +1,1 @@
+ALTER TABLE reservas ADD COLUMN recordatorio_enviado BOOLEAN DEFAULT FALSE;
