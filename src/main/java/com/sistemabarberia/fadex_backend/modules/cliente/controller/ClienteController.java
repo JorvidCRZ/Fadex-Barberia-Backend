@@ -1,10 +1,9 @@
 package com.sistemabarberia.fadex_backend.modules.cliente.controller;
 
 
-import com.sistemabarberia.fadex_backend.Auth.security.service.CustomUserDetails;
-import com.sistemabarberia.fadex_backend.Auth.usuario.Entity.Usuario;
-import com.sistemabarberia.fadex_backend.Auth.usuario.Repository.UsuarioRepository;
-import com.sistemabarberia.fadex_backend.Auth.usuario.service.IUsuarioService;
+import com.sistemabarberia.fadex_backend.auth.security.service.CustomUserDetails;
+import com.sistemabarberia.fadex_backend.auth.usuario.Entity.Usuario;
+import com.sistemabarberia.fadex_backend.auth.usuario.Repository.UsuarioRepository;
 import com.sistemabarberia.fadex_backend.commons.response.ApiResponse;
 import com.sistemabarberia.fadex_backend.commons.response.PageResponse;
 import com.sistemabarberia.fadex_backend.modules.cliente.dto.request.ClienteRequestDTO;
