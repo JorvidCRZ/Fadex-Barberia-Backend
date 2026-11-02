@@ -1,4 +1,5 @@
 package com.sistemabarberia.fadex_backend.Auth.usuario.Entity;
+import com.sistemabarberia.fadex_backend.auth.rol.Entity.Rol;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -38,6 +39,7 @@ public class Usuario {
             joinColumns = @JoinColumn(name = "usuario_id"),
             inverseJoinColumns = @JoinColumn(name = "rol_id")
     )
+    private Set<Rol> roles = new HashSet<>();
 
     @Column(name = "pin")
     private String pin;
