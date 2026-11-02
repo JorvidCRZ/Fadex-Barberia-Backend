@@ -1,1 +1,0 @@
-ALTER TABLE recompensa ADD CONSTRAINT uq_recompensa_cliente UNIQUE (id_cliente);
