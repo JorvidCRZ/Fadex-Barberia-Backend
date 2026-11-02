@@ -1,6 +1,6 @@
 package com.sistemabarberia.fadex_backend.modules.barbero.repository;
 
-import com.sistemabarberia.fadex_backend.Auth.usuario.Entity.Usuario;
+import com.sistemabarberia.fadex_backend.auth.usuario.Entity.Usuario;
 import com.sistemabarberia.fadex_backend.modules.barbero.entity.Barbero;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
