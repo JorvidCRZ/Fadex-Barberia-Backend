@@ -1,1 +1,0 @@
-ALTER TABLE detalle_venta ADD COLUMN id_servicio INT;
